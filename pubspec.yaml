@@ -71,13 +71,13 @@ flutter:
      -  family: Roboto
         fonts:
          - asset: assets/fonts/roboto/Roboto-Regular.ttf
-     -  family: flutter
+     -  family: flutterr
         fonts:
-         - asset: assets/fonts/Flutter.ttf
-     -  family: flutter
+         - asset: assets/fonts/Flutterr.ttf
+     -  family: flutter1
         fonts:
          - asset: assets/fonts/Flutter1.ttf
-     -  family: flutter
+     -  family: flutter2
         fonts:
          - asset: assets/fonts/Flutter2.ttf
          

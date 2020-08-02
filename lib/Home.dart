@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:titled_navigation_bar/titled_navigation_bar.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
-import 'package:Assesment/flutter_icons.dart';
+import 'package:Assesment/flutterr_icons.dart';
 import 'package:Assesment/flutter1_icons.dart';
 import 'package:Assesment/flutter2_icons.dart';
 class Home extends StatefulWidget {
@@ -15,7 +15,7 @@ class _HomeState extends State<Home> {
     TitledNavigationBarItem(title: Text('Home'), icon: FeatherIcons.home),
     TitledNavigationBarItem(title: Text('Reminder'), icon: Flutter2.bell),
     TitledNavigationBarItem(title: Text('Prescription'), icon: Flutter1.medical),
-    TitledNavigationBarItem(title: Text('Profile'), icon: Flutter.man,),
+    TitledNavigationBarItem(title: Text('Profile'), icon: Flutterr.man),
   ];
 
   @override
@@ -357,20 +357,12 @@ class _HomeState extends State<Home> {
                     ),
                   ],
                 ),
-                child: Container(
-                  height: 32,
-                  width: 32,
-                  decoration: BoxDecoration(
-                      border: Border.all(color: Hexcolor('#D9EBF9'))),
-                  child: Padding(
-                    padding: const EdgeInsets.only(right: 240.0),
-                    child: Image.asset("assets/images/pills.png"),
-                  ),
+               
                 ),
               ),
-            ),
+            
             Padding(
-              padding: const EdgeInsets.only(top: 620.0, left: 180.0),
+              padding: const EdgeInsets.only(top: 650.0, left: 180.0),
               child: Container(
                 height: 32,
                 width: 32,
@@ -384,7 +376,7 @@ class _HomeState extends State<Home> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(top: 655.0, left: 120.0),
+              padding: const EdgeInsets.only(top: 685.0, left: 120.0),
               child: Text(
                 "Add Medication",
                 style: TextStyle(
@@ -491,6 +483,17 @@ class _HomeState extends State<Home> {
                   fontFamily: 'Roboto-Regular',
                   fontSize: 15,
                 ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(top: 560.0, left: 55,),
+              child: Container(
+                width: 30,
+                height: 30,
+                child: Center(child: Text("/", style: TextStyle(color: Colors.white, fontSize: 25),)),
+                decoration: BoxDecoration(
+                          color: Hexcolor('#0A4F86'),
+                          borderRadius: BorderRadius.all(Radius.circular(30))),
               ),
             ),
           ],
