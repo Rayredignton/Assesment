@@ -8,6 +8,7 @@ class Screen2 extends StatelessWidget {
       body: SafeArea(
               child: Column(
           children: [
+            //======== header=======
             Container(
               
               
@@ -34,6 +35,7 @@ class Screen2 extends StatelessWidget {
                 ],
               ),
             ),
+            //============image===========
             Container(
               height: 200,
               width: 350,
@@ -47,6 +49,7 @@ class Screen2 extends StatelessWidget {
             ),
             SizedBox(
               height: 20,
+              //===========Text widget=======
             ),
             Container(
               height: 100,

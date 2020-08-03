@@ -3,7 +3,7 @@
 A new Flutter project.
 
 ## Getting Started
-
+<img src="https://github.com/Rayredignton/Assesment/blob/master/Screen1.png" width="200"> <img src="https://github.com/Rayredignton/Assesment/blob/master/Screen1b.png" width="200"> <img src="https://github.com/Rayredignton/Assesment/blob/master/Screen2.png" width="200">
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:

@@ -11,6 +11,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  //======bottom nav======
   final List<TitledNavigationBarItem> items = [
     TitledNavigationBarItem(title: Text('Home'), icon: FeatherIcons.home),
     TitledNavigationBarItem(title: Text('Reminder'), icon: Flutter2.bell),
@@ -29,6 +30,7 @@ class _HomeState extends State<Home> {
               width: MediaQuery.of(context).size.width,
               color: Hexcolor('#1686C5'),
             ),
+            // ======= background Circle design=====
             Positioned(
               right: 60,
               top: 0,
@@ -53,6 +55,7 @@ class _HomeState extends State<Home> {
                     color: Color(0xff3597cf), shape: BoxShape.circle),
               ),
             ),
+            //====== Top Row=====
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -79,6 +82,7 @@ class _HomeState extends State<Home> {
                 ),
               ],
             ),
+            // ======= calender widget
             Padding(
               padding: const EdgeInsets.only(top: 145.0),
               child: Row(
@@ -218,6 +222,8 @@ class _HomeState extends State<Home> {
                 ],
               ),
             ),
+            //====== beginning of white screen=====
+            //====== before breakfast row======
             Container(
               margin: const EdgeInsets.only(bottom: 30),
               child: Row(
@@ -257,6 +263,7 @@ class _HomeState extends State<Home> {
                 ],
               ),
             ),
+            //===== top Container======
             Row(
               children: [
                 Padding(
@@ -284,6 +291,7 @@ class _HomeState extends State<Home> {
                 ),
               ],
             ),
+            // ======== after breakfast row======
             Row(
               children: [
                 Padding(
@@ -340,6 +348,7 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
+            //==== second Container row=====
             Padding(
               padding: const EdgeInsets.only(top: 540.0, left: 30.0),
               child: Container(
@@ -375,6 +384,7 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
+            // ======== add medication widget=======
             Padding(
               padding: const EdgeInsets.only(top: 685.0, left: 120.0),
               child: Text(
@@ -499,6 +509,7 @@ class _HomeState extends State<Home> {
           ],
         ),
       ),
+      //========= bottom nav bar======
       bottomNavigationBar: TitledBottomNavigationBar(
         onTap: (index) => print("Selected Index: $index"),
         reverse: true,
